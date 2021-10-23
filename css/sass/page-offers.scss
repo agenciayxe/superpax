@@ -1,0 +1,87 @@
+.page-offers {
+	background-color: $corBranco;
+	background-size: cover;
+	background-position: center;
+	padding: 25px 0px;
+	h1.title {
+		text-align: center;
+		color: $corPrincipal;
+		font-weight: normal;
+	}
+	hr {
+		position: relative;
+		display: block;
+		width: 70px;
+		margin: 0px auto 30px;
+		border: solid 1px #c5c5c5;
+	}
+	.single-offers {
+		.content {
+			background-color: #eaeaea;
+			margin: 15px;
+			border-radius: 25px;
+			overflow: hidden;
+			.img-default {
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				position: relative;
+				width: 100%;
+				height: 300px;
+			}
+			.box-offers {
+				border: solid 6px $corPrincipal;
+				img {
+					width: 100%;
+				}
+			}
+			.text {
+				position: relative;
+				width: 100%;
+				background-color: $corPrincipal;
+				padding: 5px 15px;
+				display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+				h2 {
+					font-size: 23px;
+					text-align: left;
+					color: $corBranco;
+				}
+				.view-more {
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 0.8;
+					color: $corBranco;
+				}
+			}
+		}
+	}
+	.link-offers {
+		display: block;
+		background-color: $corSecundaria;
+		max-width: 450px;
+		margin: 15px auto;
+		padding: 2px 12px;
+		text-align: center;
+		a {
+			color: $corPrincipal;
+			font-size: 33px;
+			text-transform: uppercase;
+			font-weight: 800;
+			font-style: italic;
+		}
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}

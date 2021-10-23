@@ -1,0 +1,103 @@
+.page-stores {
+	.list-stores {
+		.box-stores {
+			position: relative;
+		    background-color: $corBranco;
+		    min-height: 360px;
+		    width: 100%;
+		    margin-top: 20px;
+		    border-radius: 5px;
+		    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+		    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+		    overflow: hidden;
+		    display: flex;
+		    flex-flow: row wrap;
+		    &:nth-child(even) {
+		    	flex-direction: row-reverse;
+		    }
+		    .content {
+		    	flex: 4;
+			    display: inline-block;
+			    vertical-align: top;
+			    padding: 40px 50px;
+			    text-align: left;
+			    h1 {
+			    	text-align: left;
+			    	font-size: 40px;
+			    	color: $corPrincipal;
+			    }
+			    p {
+			    	text-align: left;
+			    	font-size: 22px;
+			    	color: $corSecundaria;
+			    }
+			}
+		    .map {
+		    	width: 512px;
+				display: inline-block;
+				vertical-align: middle;
+				background-color: #f2f1f1;
+				min-height: 300px;
+		    }
+		}
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.page-stores {
+		.list-stores {
+			.box-stores {
+				overflow: visible;
+				 .content {
+				 	padding: 30px 40px;
+				    h1 {
+				    	font-size: 32px;
+				    }
+				    p {
+				    	font-size: 22px;
+				    }
+				}
+			    .map {
+			    	width: 100%;
+			    }
+			}
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.page-stores {
+		.list-stores {
+			.box-stores {
+				overflow: visible;
+				 .content {
+				 	padding: 40px 50px;
+				    h1 {
+				    	font-size: 40px;
+				    }
+				    p {
+				    	font-size: 30px;
+				    }
+				}
+			    .map {
+			    	width: 100%;
+			    }
+			}
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	.page-stores {
+		.list-stores {
+			.box-stores {
+			    .map {
+			    	width: 100%;
+			    }
+			}
+		}
+	}
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Heavitas';
+	src: url('../fonts/heavitas-regular.eot');
+	src: url('../fonts/heavitas-regular.woff2') format('woff2'),
+	url('../fonts/heavitas-regular.woff') format('woff'),
+	url('../fonts/heavitas-regular.ttf') format('truetype'),
+	url('../fonts/heavitas-regular.eot?#iefix') format('embedded-opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media screen and (max-width: $xsWidth) {
+
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

@@ -1,0 +1,100 @@
+.section-market {
+    background-color: $corBranco;
+    padding: 15px;
+    border-bottom: solid 11px $corPrincipal;
+	.content-market {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		.title-market {
+			text-transform: uppercase;
+			font-size: 45px;
+			text-align: center;
+			color: $corPrincipal;
+		}
+		.image-market-mobile {
+			display: none;
+		}
+		.link-market {	
+			background-color: $corPrincipal;
+			text-transform: uppercase;
+			font-size: 35px;
+			text-align: center;
+			color: $corBranco;
+		}
+		.image-market {
+			width: 100%;
+			max-width: 330px;
+			display: block;
+			margin: 0px auto;
+		}
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.section-market {
+		.content-market {
+			.title-market {
+				font-size: 30px;
+			}
+			.image-market-mobile {
+				display: block;
+				width: 100%;
+				max-width: 330px;
+				display: block;
+				margin: 12px auto;
+			}
+			.link-market {
+			    font-size: 19px;
+			    padding: 10px 0px;
+			}
+			.image-market {
+				display: none;
+			}
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.section-market {
+		.content-market {
+			.title-market {
+				font-size: 35px;
+				margin: 5px 0px;
+			}
+			.image-market-mobile {
+				display: block;
+				width: 100%;
+				max-width: 330px;
+				display: block;
+				margin: 12px auto;
+			}
+			.link-market {
+				font-size: 32px;
+				margin: 5px 0px;
+			}
+			.image-market {
+				display: none;
+			}
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	.section-market {
+		.content-market {
+			.title-market {
+				font-size: 30px;
+				margin: 5px 0px;
+			}
+			.link-market {
+				font-size: 22px;
+				padding: 12px 5px;
+				margin: 5px 0px;
+			}
+		}
+	}
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

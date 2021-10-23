@@ -1,0 +1,84 @@
+.home-news {
+	padding: 35px 0px;
+	.content-news {
+		h2.title {
+			text-align: right;
+			color: $corSecundaria;
+		}
+		.image-news {
+			padding: 10px;
+		}
+		.list-news {
+			padding: 15px 0px;
+			.single-news {
+				padding: 22px 0px;
+				text-align: right;
+				.title-news {
+					color: $corPrincipal;
+					h3 {
+						font-size: 26px;
+					}
+				}
+				.content-news {
+					color: $corText;
+					text-transform: uppercase;
+					font-size: 23px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.home-news {
+		padding: 5px 0px 25px;
+		.content-news {
+			h2.title { text-align: left; font-size: 28px; }
+			.image-news { padding: 0px; }
+			.list-news {
+				.single-news {
+					text-align: left;
+					.title-news {
+						h3 {
+							font-size: 20px;
+						}
+					}
+					.content-news {
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.home-news {
+		padding: 5px 0px 25px;
+		.content-news {
+			h2.title { text-align: left; font-size: 28px; }
+			.image-news { padding: 0px; }
+			.list-news {
+				.single-news {
+					text-align: left;
+					.title-news {
+						h3 {
+							font-size: 20px;
+						}
+					}
+					.content-news {
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

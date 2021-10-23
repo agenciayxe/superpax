@@ -1,0 +1,133 @@
+.section-signature {
+	background-color: $corSecundaria;
+	padding: 20px 10px;
+	.title-signature {
+		padding: 5px 0px;
+		h1 {
+			text-transform: none !important;
+			font-family: 'Open Sans';
+			font-size: 23px;
+			font-weight: normal;
+			color: $corBranco;
+		}
+	}
+	.text-signature {
+		padding: 5px 0px;
+		p {
+			font-size: 28px;
+			text-transform: uppercase;
+			font-weight: 800;
+			color: $corSecundaria;
+			line-height: 1.2;
+		}
+	}
+	.form-area {
+		padding: 10px 0px;
+		.input-field {
+		    background-color: $corBranco;
+		    padding: 10px 15px;
+		    border: none;
+		    font-weight: 600;
+		    font-size: 18px;
+		}
+		.button-form {
+		    background-color: $corBranco;
+		    padding: 7px 20px;
+		    border: none;
+		    margin: 0px;
+		    color: $corPrincipal;
+		    font-size: 17px;
+		    font-style: normal;
+		}
+	}
+	.signature-zap {
+		font-size: 78px;
+		padding: 15px;
+		text-align: right;
+		font-weight: bold;
+		font-style: italic;
+		a {
+			color: #00c439;
+		}
+	}
+	.icons.icon-whatsapp {
+		height: 80px;
+		width: 80px;
+		margin: -15px 0px;
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.section-signature {
+		.title-signature {
+			h1 {
+				font-size: 19px;
+				padding: 15px 0px;
+			}
+		}
+		.form-area {
+			padding: 0px;
+		}
+		.signature-zap {
+			font-size: 25px;
+			text-align: center;
+		}
+		.icons.icon-whatsapp {
+			width: 45px;
+			height: 45px;
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.section-signature {
+		.title-signature {
+			h1 {
+				font-size: 35px;
+			}
+		}
+		.form-area {
+			padding: 0px;
+		}
+		.signature-zap {
+			font-size: 28px;
+			text-align: center;
+		}
+		.icons.icon-whatsapp {
+			width: 50px;
+			height: 50px;
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	.section-signature {
+		.title-signature {
+			padding: 10px 0px;
+			h1 {
+				font-size: 28px;
+			}
+		}
+		.signature-zap {
+			font-size: 40px;
+			text-align: center;
+		}
+		.icons.icon-whatsapp {
+			width: 55px;
+			height: 55px;
+		}
+		.text-signature {
+			padding: 10px 0px;
+			p {
+				font-size: 21px;
+			}
+		}
+	}
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	.section-signature {
+		.signature-zap {
+			font-size: 60px;
+		}
+	}
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

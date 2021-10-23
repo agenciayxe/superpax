@@ -1,0 +1,76 @@
+.home-projects {
+	background-image: url('../img/banner-projects.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25px 0px;
+	.content-projects {
+		h2.title {
+			text-align: right;
+			color: $corPrincipal;
+			font-size: 40px;
+		}
+		.image-projects {
+			padding: 10px;
+		}
+		.text-projects {
+			p {
+				color: $corBranco;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 25px;
+				text-align: center;
+				padding: 25px 20px;
+			}
+		}
+		.link-projects {
+			color: $corBranco;
+			text-align: right;
+			text-transform: uppercase;
+			font-size: 27px;
+			font-weight: 700;
+		}
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.home-projects {
+		padding: 5px 0px 25px;
+		.content-projects {
+			h2.title { text-align: left; font-size: 28px; }
+			.text-projects {
+				p { text-align: left; padding: 0px; font-size: 18px; }
+			}
+			.link-projects { text-align: left; }
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.home-projects {
+		padding: 5px 0px 25px;
+		.content-projects {
+			h2.title { text-align: left; font-size: 28px; }
+			.text-projects {
+				p { text-align: left; padding: 0px; font-size: 20px; }
+			}
+			.link-projects { text-align: left; }
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	.home-projects {
+		padding: 5px 0px 25px;
+		.content-projects {
+			h2.title { text-align: left; font-size: 28px; }
+			.text-projects {
+				p { text-align: left; padding: 0px; font-size: 17px; }
+			}
+			.link-projects { text-align: left; }
+		}
+	}
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

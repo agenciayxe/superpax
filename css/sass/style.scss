@@ -1,0 +1,56 @@
+/* Cores do Tema */
+// $corPrincipal: #ee2924;
+$corPrincipal: #233ef9;
+$corPrincipalEscura: #233ef9;
+$corPrincipalEscuraDark: #233ef9;
+$corSecundaria: #ff0000;
+$corSecundariaEscura: #d60000;
+$corBranco: #ffffff;
+$corText: #292929;
+$corGrayPrincipal: #ededed;
+
+/* Tamanho das Telas */
+$xsWidth: 576px;
+$smWidth: 576px;
+$mdWidth: 768px;
+$lgWidth: 992px;
+$xlWidth: 1200px;
+
+/*Tamanho dos Textos */
+$xsTextMenu: 20px;
+
+@import 'classes';
+
+@import 'pre-header';
+@import 'header';
+@import 'header-bar';
+@import 'header-search';
+@import 'menu';
+@import 'icons';
+@import 'fonts';
+
+@import 'index';
+@import 'index-banner';
+@import 'index-brands';
+@import 'index-market';
+@import 'index-news';
+@import 'index-offers';
+@import 'index-projects';
+@import 'index-services';
+@import 'index-signature';
+@import 'index-socials';
+@import 'index-tips';
+
+@import 'page-biography';
+@import 'page-contact';
+@import 'page-clients';
+@import 'page-news';
+@import 'page-offers';
+@import 'page-projects';
+@import 'page-services';
+@import 'page-market';
+@import 'page-stores';
+@import 'page-promotions';
+@import 'page-specials';
+
+@import 'footer';

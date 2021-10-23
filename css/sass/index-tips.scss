@@ -1,0 +1,119 @@
+.section-tips {
+	background-color: $corPrincipal;
+	padding: 35px 0px;
+	text-align: center;
+	h1 {
+	    position: relative;
+	    text-align: left;
+	    font-size: 35px;
+	    z-index: 2;
+	    color: $corBranco; 
+	}
+    .list-tips {
+	    display: flex;
+	    padding: 45px 0px 15px;
+	    .single-tips {
+	    	.thumb-tips {
+	    		img {
+	    			width: 100%;
+	    		}
+	    	}
+	    	.text-tips {
+	    		.title-tips {
+	    			h1 {
+						font-size: 25px;
+						padding: 25px 15px;
+						color: $corBranco;
+						text-transform: uppercase;
+	    			}
+	    		}
+	    	}
+	    }
+	}
+	.button-tips {
+		display: inline-block;
+		background-color: $corBranco;
+		color: $corPrincipal;
+		text-transform: uppercase;
+		font-style: normal;
+		// margin: 12px auto;
+		padding: 15px 20px;
+	}
+}
+@media screen and (max-width: $xsWidth) {
+	.section-tips {
+		h1 {
+		    font-size: 32px;
+		    padding: 8px 0px;
+		    text-align: center;
+		}
+		.list-tips {
+			font-size: 30px;
+			.single-tips {
+		    	.text-tips {
+		    		.title-tips {
+		    			h1 {
+							font-size: 23px;
+							padding: 25px 0px;
+		    			}
+		    		}
+		    	}
+		    }
+		}
+		.button-tips {
+			display: block;
+			margin: 0px auto;
+		}
+	}
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+	.section-tips {
+		h1 {
+		    font-size: 40px;
+		    padding: 8px 0px;
+		    text-align: center;
+		}
+		.list-tips {
+			font-size: 30px;
+			.single-tips {
+		    	.text-tips {
+		    		.title-tips {
+		    			h1 {
+							font-size: 22px;
+							padding: 25px 0px;
+		    			}
+		    		}
+		    	}
+		    }
+		}
+		.button-tips {
+			display: block;
+			margin: 0px auto;
+		}
+	}
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+	.section-tips {
+		h1 {
+		    font-size: 50px;
+		}
+	    .list-tips {
+		    .single-tips {
+		    	.text-tips {
+		    		.title-tips {
+		    			h1 {
+							font-size: 17px;
+							padding: 15px 5px;
+		    			}
+		    		}
+		    	}
+		    }
+		}
+	}
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+	
+}
+@media screen and (min-width: $xlWidth) {
+	
+}

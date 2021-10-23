@@ -1,0 +1,214 @@
+.search {
+	position: relative;
+	padding: 25px 10px;
+	form {
+		display: -webkit-inline-flex;
+		display: inline-flex;
+		width: 100%;
+		-webkit-flex: 1 1 100%;
+		flex: 1 1 100%;
+		position: relative;
+		padding-left: .9375rem;
+		padding-right: .9375rem;
+		input {
+			display:-webkit-flex;
+			display:flex;
+			height:2.5rem;
+			border:none;
+			background:#f5f6fa;
+			border-top-left-radius:20rem;
+			border-bottom-left-radius:20rem;
+			overflow:hidden;
+			-webkit-appearance:none;
+			padding:0 0 0 1.25rem;
+			-webkit-flex-grow:1;
+			flex-grow:1;
+			transition:all .2s linear;
+			font-size:.85rem;
+			&.focused{
+				transition:all .2s linear;
+				outline: none;
+			}
+			&.focused~.search-cancel{
+				transition:all 125ms linear;
+				-webkit-flex:0 1 4.375rem;
+				flex:0 1 4.375rem;
+				opacity:1;
+				padding:0 .25rem 0 .65rem;
+				color: $corPrincipal;
+			}
+		}
+		button{
+			display:-webkit-flex;
+			display:flex;
+			height:2.5rem;
+			margin: 0px;
+			border:none;
+			background:#de0b1e;
+			border-top-right-radius:20rem;
+			border-bottom-right-radius:20rem;
+			overflow:hidden;
+			-webkit-flex-basis:4rem;
+			flex-basis:4rem;
+			padding:0;
+			text-indent:.25rem;
+			color:#cdc6c6;
+			width:4rem;
+			-webkit-align-items:center;
+			align-items:center;
+			&:focus{
+				outline:none;
+			}
+			i:before{
+				font-size:1.4rem;
+				 padding: 4px 15px;
+				 color:#fff;
+			}
+		}
+		.search-cancel{
+			overflow:hidden;
+			opacity:0;
+			transition:all 125ms linear;
+			color:#35343a;
+			font-size:1rem;
+			-webkit-flex-basis:0;
+			flex-basis:0;
+			cursor:pointer;
+		}
+		.search-clear-field{
+			-webkit-flex-basis:2rem;
+			flex-basis:2rem;
+			font-size:1rem;
+			background:#f5f6fa;
+			color: $corPrincipal;
+			i {
+				color: $corPrincipal;
+				transition:opacity 125ms linear;
+				opacity:0;
+			}
+			&.show{
+				cursor:pointer;
+				i {
+					color: $corPrincipal;
+					transition:opacity 125ms linear;
+					opacity:1;
+				}
+			}
+		}
+		.search-cancel, .search-clear-field{
+			display:-webkit-flex;
+			display:flex;
+			-webkit-justify-content:center;
+			justify-content:center;
+			-webkit-align-items:center;
+			align-items:center;
+		}
+	}
+}
+.header-search-autosuggest {
+	position: absolute;
+	display: none;
+	top: 70px;
+	width: 100%;
+	&.active {
+		display: block;
+	}
+	.content-autosuggest {
+		display: block;
+	    position: relative;
+	    margin: 5px 85px 10px 35px;
+	    background-color: #f5f6fa;
+	    padding: 15px 20px;
+	    h3 {
+	    	font-size: 15px;
+	    	margin: 3px 0px;
+	    }
+	    .list-content {
+		    padding: 2px 0px;
+		    &.list-pages .single-page {
+		    	a {
+				    display: block;
+				    padding: 6px 13px;
+				    font-size: 15px;
+				    color: #da030b;
+				    background-color: white;
+				    margin: 3px 0px;
+				}
+		    }
+		    &.list-tips .single-tip {
+		    	a {
+				    display: block;
+				    padding: 6px 13px;
+				    font-size: 15px;
+				    color: #da030b;
+				    background-color: white;
+				    margin: 3px 0px;
+				    .img-tip {
+				    	width: 150px;
+				    }
+				    h4 {
+				    	font-size: 20px;
+				    }
+				}
+		    }
+		    &.list-stores .single-store {
+		    	a {
+				    display: block;
+				    padding: 6px 13px;
+				    font-size: 15px;
+				    color: #da030b;
+				    background-color: white;
+				    margin: 3px 0px;
+				}
+			    h4 {
+			    	font-size: 20px;
+			    }
+		    }
+		}
+	}
+}
+.search:target~.main-header--store{
+	display:none
+}
+
+@media only screen and (min-width:48rem){
+	.main-header--search .search-input.focused~button{
+		width:auto;
+		-webkit-flex:0 0 auto;
+		flex:0 0 auto;
+		color:#fff;
+		overflow:visible;
+		padding-right:.75rem
+	}
+	.main-header--search .search-input.focused~button i{
+		display:-webkit-flex;
+		display:flex;
+		-webkit-align-items:center;
+		align-items:center
+	}
+	.main-header--search .search-input.focused~button i:after{
+		content:attr(data-search-txt);
+		font-family:Sana Sans Alt Regular,Helvetica,Arial,sans-serif;
+		font-weight:700
+	}
+
+}
+@media only screen and (min-width:48rem) and (min-width:48rem){
+	.main-header--search .search-input.focused~button i:after{
+		font-family:Sana Sans Alt Bold Regular,Helvetica,Arial,sans-serif;
+		font-weight:400
+	}
+
+}
+@media only screen and (min-width:48rem){
+	#main-header--search-focused:checked~div,.main-header>div.hide-search-focused{
+		display:none
+	}
+
+}
+@media only screen and (min-width:75rem){
+	.search form .search-cancel,.search form input:focus~.search-cancel{
+		display: none;
+	}
+
+}
