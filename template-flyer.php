@@ -21,14 +21,23 @@ get_template_part('templates/ads', 'brochure');
 		if ($enQuery->have_posts()) {
 			while ($enQuery->have_posts()) {
 				$enQuery->the_post();
+				if (get_field('pdf_pilares')) {
+					$encarteArquivoPilares = get_field('pdf_pilares');
+					?><div class="d-flex justify-content-center"><a href="<?php echo $encarteArquivoPilares; ?>" target="_blank"><button class="button-contato">Lâmina - Pilares</button></a></div><?php
+				}
+				if (get_field('pdf_vila_penha')) {
+					$encarteArquivoVilaPenha = get_field('pdf_vila_penha');
+					?><div class="d-flex justify-content-center"><a href="<?php echo $encarteArquivoVilaPenha; ?>" target="_blank"><button class="button-contato">Lâmina - Vila da Penha</button></a></div><?php
+				}
 				if (get_field('pdf')) {
 					$encarteArquivo = get_field('pdf');
-					?><div class="d-flex justify-content-center"><a href="<?php echo $encarteArquivo; ?>" target="_blank"><button class="button-contato">Download da Lâmina</button></a></div><?php
+					?><div class="d-flex justify-content-center"><a href="<?php echo $encarteArquivo; ?>" target="_blank"><button class="button-contato">Download do Lâmina - Demais Lojas</button></a></div><?php
 				}
 			?>
 			<div class="text-center d-flex justify-content-center align-items-center">
 		    	<div class="swiper-button-prev"></div><div class="swiper-pagination"></div><div class="swiper-button-next"></div>
 		    </div>
+			<p class="text-center"><small>Ofertas válidas somente para as unidades de Madureira, Guadalupe, Del Castilho, Inhaúma, Realengo, Oswaldo Cruz e Encantado.</small></p>
 			<div class="market-slide swiper-container">
 			    <div class="swiper-wrapper">
 					<?php
