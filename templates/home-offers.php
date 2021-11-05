@@ -65,7 +65,14 @@
 					'posts_per_page' => 1,
 					'meta_key' => 'validade',
 					'meta_value' => $timeCurrent,
-					'meta_compare' => '>'
+					'meta_compare' => '>',
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'lamina',
+							'field'    => 'slug',
+							'terms'    => 'geral',
+						),
+					),
 				);
 				$enQuery = new WP_Query($postEncarte);
 				if ($enQuery->have_posts()) {
@@ -73,6 +80,33 @@
 					<a href="<?php echo get_page_link(33060); ?>">
 	 					<div class="button-offer offer-about">
 	 						<div class="title-offer">Lâmina Digital</div>
+	 					</div>
+	 				</a>
+					<?php
+				}
+				
+				date_default_timezone_set("America/Sao_Paulo");
+				$timeCurrent = (string) strftime('%Y-%m-%d %H:%M:%S', strtotime('now'));
+				$postEncarte = array(
+					'post_type' => 'lamina',
+					'posts_per_page' => 1,
+					'meta_key' => 'validade',
+					'meta_value' => $timeCurrent,
+					'meta_compare' => '>',
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'lamina',
+							'field'    => 'slug',
+							'terms'    => 'pilares-penha',
+						),
+					),
+				);
+				$enQuery = new WP_Query($postEncarte);
+				if ($enQuery->have_posts()) {
+					?>
+					<a href="<?php echo get_page_link(33060); ?>">
+	 					<div class="button-offer offer-about">
+	 						<div class="title-offer">Pilares e Vila da Penha</div>
 	 					</div>
 	 				</a>
 					<?php
