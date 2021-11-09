@@ -36,7 +36,7 @@ get_template_part('templates/ads', 'brochure');
 			<div class="text-center d-flex justify-content-center align-items-center">
 		    	<div class="swiper-button-prev"></div><div class="swiper-pagination"></div><div class="swiper-button-next"></div>
 		    </div>
-			<p class="text-center"><small>Ofertas válidas somente para as unidades de Vila da Penha.</small></p>
+			<p class="text-center"><small>Ofertas válidas somente para a unidade de Vila da Penha.</small></p>
 			<div class="market-slide swiper-container">
 			    <div class="swiper-wrapper">
 					<?php

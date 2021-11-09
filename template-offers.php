@@ -132,7 +132,7 @@ get_header();
 			if ($enQuery->have_posts()) {
 				?>
 				<div class="col-md-6 col-sm-6 single-offers">
-					<a href="<?php echo get_page_link(33623); ?>">
+					<a href="<?php echo get_page_link(33635); ?>">
 						<div class="content">
 							 <div class="img-default" style="background-image: url('<?php echo get_bloginfo('template_url') . '/img/offer-lamina-pilares.jpg'; ?>');"></div>
 							<!-- <img src="<?php echo $img[$h]; ?>" alt="" class="img-default img-fluid"> -->
@@ -167,7 +167,7 @@ get_header();
 			if ($enQuery->have_posts()) {
 				?>
 				<div class="col-md-6 col-sm-6 single-offers">
-					<a href="<?php echo get_page_link(33623); ?>">
+					<a href="<?php echo get_page_link(33637); ?>">
 						<div class="content">
 							 <div class="img-default" style="background-image: url('<?php echo get_bloginfo('template_url') . '/img/offer-lamina-vila-da-penha.jpg'; ?>');"></div>
 							<!-- <img src="<?php echo $img[$h]; ?>" alt="" class="img-default img-fluid"> -->

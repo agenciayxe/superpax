@@ -131,7 +131,7 @@
 				$enQuery = new WP_Query($postEncarte);
 				if ($enQuery->have_posts()) {
 					?>
-					<a href="<?php echo get_page_link(33060); ?>">
+					<a href="<?php echo get_page_link(33635); ?>">
 	 					<div class="button-offer offer-about">
 	 						<div class="title-offer">Lâmina Pilares</div>
 	 					</div>
@@ -158,7 +158,7 @@
 				$enQuery = new WP_Query($postEncarte);
 				if ($enQuery->have_posts()) {
 					?>
-					<a href="<?php echo get_page_link(33060); ?>">
+					<a href="<?php echo get_page_link(33637); ?>">
 	 					<div class="button-offer offer-about">
 	 						<div class="title-offer">Vila da Penha</div>
 	 					</div>
