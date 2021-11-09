@@ -111,8 +111,62 @@
 	 				</a>
 					<?php
 				}
+				
+				date_default_timezone_set("America/Sao_Paulo");
+				$timeCurrent = (string) strftime('%Y-%m-%d %H:%M:%S', strtotime('now'));
+				$postEncarte = array(
+					'post_type' => 'lamina',
+					'posts_per_page' => 1,
+					'meta_key' => 'validade',
+					'meta_value' => $timeCurrent,
+					'meta_compare' => '>',
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'lamina',
+							'field'    => 'slug',
+							'terms'    => 'pilares',
+						),
+					),
+				);
+				$enQuery = new WP_Query($postEncarte);
+				if ($enQuery->have_posts()) {
+					?>
+					<a href="<?php echo get_page_link(33060); ?>">
+	 					<div class="button-offer offer-about">
+	 						<div class="title-offer">Lâmina Pilares</div>
+	 					</div>
+	 				</a>
+					<?php
+				}
+				
+				date_default_timezone_set("America/Sao_Paulo");
+				$timeCurrent = (string) strftime('%Y-%m-%d %H:%M:%S', strtotime('now'));
+				$postEncarte = array(
+					'post_type' => 'lamina',
+					'posts_per_page' => 1,
+					'meta_key' => 'validade',
+					'meta_value' => $timeCurrent,
+					'meta_compare' => '>',
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'lamina',
+							'field'    => 'slug',
+							'terms'    => 'vila-da-penha',
+						),
+					),
+				);
+				$enQuery = new WP_Query($postEncarte);
+				if ($enQuery->have_posts()) {
+					?>
+					<a href="<?php echo get_page_link(33060); ?>">
+	 					<div class="button-offer offer-about">
+	 						<div class="title-offer">Vila da Penha</div>
+	 					</div>
+	 				</a>
+					<?php
+				}
 				?>
-	 				<a href="http://www.superpax.com.br/site/lojas/">
+	 				<a href="<?php echo get_page_link(15); ?>">
 	 					<div class="button-offer offer-stores">
 	 						<div class="title-offer">Nossas Lojas</div>
 	 					</div>
