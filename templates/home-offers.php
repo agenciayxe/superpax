@@ -104,7 +104,7 @@
 				$enQuery = new WP_Query($postEncarte);
 				if ($enQuery->have_posts()) {
 					?>
-					<a href="<?php echo get_page_link(33060); ?>">
+					<a href="<?php echo get_page_link(33623); ?>">
 	 					<div class="button-offer offer-about">
 	 						<div class="title-offer">Pilares e Vila da Penha</div>
 	 					</div>

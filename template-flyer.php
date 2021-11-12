@@ -15,7 +15,14 @@ get_template_part('templates/ads', 'brochure');
 			'posts_per_page' => 1,
 			'meta_key' => 'validade',
 			'meta_value' => $timeCurrent,
-			'meta_compare' => '>'
+			'meta_compare' => '>',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'lamina',
+					'field'    => 'slug',
+					'terms'    => 'geral',
+				),
+			),
 		);
 		$enQuery = new WP_Query($postEncarte);
 		if ($enQuery->have_posts()) {
