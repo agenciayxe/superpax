@@ -134,7 +134,7 @@ get_header();
 				<div class="col-md-6 col-sm-6 single-offers">
 					<a href="<?php echo get_page_link(33635); ?>">
 						<div class="content">
-							 <div class="img-default" style="background-image: url('<?php echo get_bloginfo('template_url') . '/img/offer-lamina-pilares.jpg'; ?>');"></div>
+							 <div class="img-default" style="background-image: url('<?php echo get_bloginfo('template_url') . '/img/offer-lamina-pilares-2.jpg'; ?>');"></div>
 							<!-- <img src="<?php echo $img[$h]; ?>" alt="" class="img-default img-fluid"> -->
 							<div class="text">
 								<h2>Lâmina de Ofertas</h2>
