@@ -29,7 +29,7 @@ function postTypePromocoes () {
         'capability_type'    => 'post',
         'has_archive'        => true,
         'hierarchical'       => true,
-        'menu_position'      => 5,
+        'menu_position'      => 4,
         'supports'           => array( 'title', 'editor', 'thumbnail'),
         'taxonomies'         => array('promocoes')
     );

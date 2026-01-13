@@ -112,9 +112,7 @@ function work_options() {
                                         </thead>
                                         <tbody id="the-list">
                                             <?php 
-                                            foreach ($bookingList as $bookingCurrent) {
-                                                $subjectID = $bookingCurrent->subject_id;
-                                                $subjectCurrent = $wpdb->get_row("SELECT * FROM form_workers_subject WHERE id='{$subjectID}'");
+                                            foreach ($bookingList as $bookingCurrent) { 
                                                 ?>
                                                 <tr id="post-20" class="iedit author-self level-0 post-20 type-page status-publish hentry">
                                                     <th scope="row" class="check-column">

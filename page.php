@@ -1,20 +1,16 @@
-<?php 
-get_header(); 
-?>
+<?php get_header(); ?>
 <main>
-	<div class="container">
-		<div class="content-text">
-			<?php 
-			if (have_posts()) {
-				while (have_posts()) {
-					the_post();
-					the_content();
-				}
-			}
-			?>
-		</div>
-	</div>
+    <section id="page" class="section-page pt-8 pb-8">
+        <div class="container mx-auto px-4">
+            <?php 
+                if (have_posts()) {
+                    while (have_posts()) {
+                        the_post();
+                        echo get_the_content();
+                    }
+                }
+            ?>
+        </div>
+    </section>
 </main>
-<?php 
-get_footer(); 
-?>
+<?php get_footer(); ?>

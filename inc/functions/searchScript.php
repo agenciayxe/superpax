@@ -1,6 +1,6 @@
 <?php 
 function scriptSearch() {
-    wp_enqueue_script( 'searchscript', get_template_directory_uri() . '/js/functions-search.js', array(), '', true );
+    wp_enqueue_script( 'searchscript', get_template_directory_uri() . '/js/script-search.js', array(), '', true );
     wp_localize_script( 'searchscript', 'search_object',
         array( 
             'location' => admin_url( 'admin-ajax.php' ),

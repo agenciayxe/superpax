@@ -51,14 +51,14 @@ class OrganizacaoMenuPrincipal extends Walker_Nav_Menu {
         $class_names = esc_attr( implode( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item ) ) );
 
         // Build HTML.
-        $output .= $indent . '<li id="nav-menu-item-'. $item->ID . '" class="' . $depth_class_names . ' ' . $class_names . '">';
+        $output .= $indent . '<li id="nav-menu-item-'. $item->ID . '" class="dropdown-item dropdown mx-2 md:mx-4 category ' . $depth_class_names . ' ' . $class_names . '">';
  
         // Link attributes.
         $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
         $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
         $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
         $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
-        $attributes .= ' class="menu-link ' . ( $depth > 0 ? 'sub-menu-link' : 'main-menu-link' ) . '"';
+        $attributes .= ' class="py-2 flex items-center justify-center text-blue-500 ' . ( $depth > 0 ? 'sub-menu-link' : 'main-menu-link' ) . '"';
  
         // Build HTML output and pass through the proper filter.
         $item_output = sprintf( '%1$s<a%2$s><i class="%3$s"></i> %4$s%5$s%6$s%7$s</a>%8$s',

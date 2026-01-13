@@ -255,6 +255,21 @@ function my_plugin_options() {
         $quantityPromotion = count($promotionList);
         if ($quantityPromotion == 1) {
             $promotionCurrent = $promotionList[0];
+            
+            $reasonInfo = $wpdb->get_results(
+                $wpdb->prepare(
+                    "SELECT * FROM form_contact_reason WHERE id='%s'",
+                    $promotionCurrent->reason_id
+                )
+            );
+            
+            $storeQuery = array( 'post_type' => 'lojas', 'p' => $promotionCurrent->store_id );
+            $dadosStore = new WP_Query($storeQuery);
+            while ($dadosStore->have_posts()) {
+                $dadosStore->the_post();
+                $categoryLojas = get_the_terms(get_the_ID(), 'lojas');
+                $nameStore = $categoryLojas[0]->name . ' - ' . get_the_title() . ' - ' . get_the_content();
+            }
             ?>
             <div class="wrap teetime-booking-view">
                 <h2>Promoção de Aniversário - Cadastro</h2>
@@ -265,6 +280,8 @@ function my_plugin_options() {
                             <tr><td><strong>Nome</strong></td><td><?php echo $promotionCurrent->name; ?></td></tr>
                             <tr><td><strong>E-mail</strong></td><td><?php echo $promotionCurrent->email; ?></td></tr>
                             <tr><td><strong>Telefone</strong></td><td><?php echo $promotionCurrent->phone; ?></td></tr>
+                            <tr><td><strong>Loja</strong></td><td><?php echo $nameStore; ?></td></tr>
+                            <tr><td><strong>Motivo</strong></td><td><?php echo $reasonInfo[0]->name; ?></td></tr>
                             <tr><td><strong>Mensagem</strong></td><td><?php echo $promotionCurrent->message; ?></td></tr>
                         </table>
                         <p>A cadastro foi feita no dia <?php echo strftime("%d/%m/%Y às %H:%M", strtotime($promotionCurrent->date_created)); ?></p>

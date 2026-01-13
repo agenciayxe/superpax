@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#action-email-marketing {
+  @apply !bg-red-700;
+}
+*:focus-visible {
+  @apply outline-red-700 outline-1; 
+}
+
+table {
+  width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .hamburger {
+    padding: 20px 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible; 
+}
+
+.hamburger:hover {
+  opacity: 0.9; 
+}
+.hamburger.is-active {
+ 
+}
+.hamburger.is-active:hover {
+  opacity: 0.9; 
+}
+.hamburger.is-active .hamburger-inner,
+ .hamburger.is-active .hamburger-inner::before,
+ .hamburger.is-active .hamburger-inner::after {
+      @apply bg-white;
+  }
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative; 
+}
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px; 
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  @apply bg-white;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease; 
+}
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block; 
+}
+.hamburger-inner::before {
+  top: -10px; 
+}
+.hamburger-inner::after {
+  bottom: -10px; 
+}
+.hamburger--squeeze {
+    
+}
+.hamburger--squeeze .hamburger-inner {
+  transition-duration: 0.075s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+}
+.hamburger--squeeze .hamburger-inner::before {
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease; 
+}
+.hamburger--squeeze .hamburger-inner::after {
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+}
+.hamburger--squeeze.is-active .hamburger-inner {
+  transform: rotate(45deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+.hamburger--squeeze.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease; 
+}
+.hamburger--squeeze.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+
+.step {
+  display: none;
+}
+
+.step.is-active {
+  display: block;
+}
+
+.input-group {
+  padding-bottom: 10px;
+}
+
+.input-group.has-error .form-control {
+  border-color: #ff3355;
+}
+
+.form-control {
+  padding: 10px 15px;
+  border: 1px solid #777777;
+}
+
+.btn-prev {
+  display: none;
+}
+
+.btn-prev.is-active {
+  display: inline-block;
+}
+
+.progress-bar {
+  @apply bg-red-700;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 5px;
+  transform-origin: left center;
+  transform: scaleX(0.01);
+  transition: transform 0.2s ease;
+}
+
+.table { 
+  @apply w-full my-4 bg-transparent text-left font-reading;
+}
+.table thead th {
+  @apply p-2 border-b-2 border-solid border-b-gray-200;
+}
+.table td {
+  @apply p-2 border-t border-t-gray-200;
+}
+
+.maps-frame {
+  @apply w-full h-80 md:h-full;
+}
+.modal img {
+  width: 100%;
+}
+
+.content-single iframe {
+  @apply aspect-video max-w-full;
+}
+
+.section-page {
+  @apply text-justify;
+}
+.section-page h2 {
+  @apply my-4;
+}
+.section-page p {
+  @apply my-2;
+}

@@ -29,27 +29,26 @@ function postTypeDicas () {
         'capability_type'    => 'post',
         'has_archive'        => true,
         'hierarchical'       => true,
-        'menu_position'      => 5,
+        'menu_position'      => 4,
         'supports'           => array( 'title', 'editor', 'thumbnail'),
-        'taxonomies'         => array('dicas')
     );
     register_post_type('dicas', $args);
     add_post_type_support( 'dicas', 'wps_subtitle' );
 }
 add_action('init', 'postTypeDicas');
 
-function tipsTax() {
+function tipsTags() {
     $label = array(
-        'name' => 'Categorias',
-        'singular_name' => 'Categoria',
-        'menu_name' => 'Categoria',
-        'all_items' => 'Todas as Categorias',
-        'edit_item' => 'Editar Categoria',
+        'name' => 'Tags',
+        'singular_name' => 'Tag',
+        'menu_name' => 'Tags',
+        'all_items' => 'Todas as Tags',
+        'edit_item' => 'Editar Tag',
         'view_item' => 'Visualizar',
         'update_item' => 'Atualizar',
         'add_new_item' => 'Adicionar Nova',
         'new_item_name' => 'Novo Item',
-        'parent_item' => 'Categoria Pai',
+        'parent_item' => 'Tag Pai',
         'parent_item_colon' => '',
         'search_items' => '',
         'popular_items' => '',
@@ -59,7 +58,7 @@ function tipsTax() {
         'not_found' => ''
     );
     register_taxonomy(
-        'dicas',
+        'tag_dicas',
         'dicas',
         array(
             'labels' => $label,
@@ -70,8 +69,8 @@ function tipsTax() {
             'show_admin_column' => true,
             'show_in_rest' => true,
             'query_var' => true,
-            'rewrite' => array('slug' => 'dicas')
+            'rewrite' => array('slug' => 'dicas-receitas')
         )
     );
 }
-add_action('init',  'tipsTax');
+add_action('init',  'tipsTags');

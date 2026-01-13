@@ -1,0 +1,1183 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1718888831720,
+    "data": [
+        {
+            "type": "folder",
+            "name": ".vscode"
+        },
+        {
+            "type": "file",
+            "name": "404.php",
+            "size": 6772,
+            "hash": "dd0cc03785cdffa9107b6bba80f56b5eebee4bd22c3a3d47b57a893196da412c"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 32,
+            "hash": "f8b7ac55ef88aac7bf1d682822b4578acf2ff2602ad6c3cfd145dcd80d8128e3"
+        },
+        {
+            "type": "file",
+            "name": "archive.php",
+            "size": 543,
+            "hash": "0e76e443e78431562d957c89e2968f6dfe1f65f0d3e06a65ee9a2fca8f2f1371"
+        },
+        {
+            "type": "folder",
+            "name": "css"
+        },
+        {
+            "type": "file",
+            "name": "footer.php",
+            "size": 1647,
+            "hash": "261e5fc4723fc0abc0559e0b230f1635cea485d69f137bce8d46202c3e802a5a"
+        },
+        {
+            "type": "file",
+            "name": "front-page.php",
+            "size": 601,
+            "hash": "479b7bc4cf0d2bea3794328b665c89840222c14eecdb25d046407053e9961acb"
+        },
+        {
+            "type": "file",
+            "name": "functions.php",
+            "size": 1266,
+            "hash": "313f0e7ce57ccda25c812b7243e744c470bed57a73a11625054b882ec87df18a"
+        },
+        {
+            "type": "file",
+            "name": "header.php",
+            "size": 5373,
+            "hash": "fc452bc37c07f5f111d2bf98dda42a44466c5c3b713a61e22f34c725a4e2bdd3"
+        },
+        {
+            "type": "folder",
+            "name": "img"
+        },
+        {
+            "type": "folder",
+            "name": "inc"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 417,
+            "hash": "5ecd4d073476d6d2bca61aed35641827d8ed8b9f4a618da69d898fedc5cf2ecc"
+        },
+        {
+            "type": "folder",
+            "name": "js"
+        },
+        {
+            "type": "file",
+            "name": "package-lock.json",
+            "size": 76305,
+            "hash": "9a644aefb1ea4f4aef10346cab6a4f2d9f0e7381a875f5e36398deada26dc224"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 180,
+            "hash": "40af7ab3a6e456380be1f26e5f0c47564312530aba601ae25519857a994837c3"
+        },
+        {
+            "type": "file",
+            "name": "page.php",
+            "size": 427,
+            "hash": "e645abc64ebaf277f8ddc64a9cedcb66433906e1b67d6824ce8a99389bd1c63b"
+        },
+        {
+            "type": "file",
+            "name": "search-dicas.php",
+            "size": 543,
+            "hash": "0e76e443e78431562d957c89e2968f6dfe1f65f0d3e06a65ee9a2fca8f2f1371"
+        },
+        {
+            "type": "file",
+            "name": "search.php",
+            "size": 121,
+            "hash": "23fff920909a6fdf07a1c64adf3ebdbe23f7a54a69e3c42cbccf3fa0948c7a22"
+        },
+        {
+            "type": "file",
+            "name": "single-lamina.php",
+            "size": 5853,
+            "hash": "805482ea7550be6f36b6909fe779635a972f79526985af0cfabe1a3224fc48cd"
+        },
+        {
+            "type": "file",
+            "name": "single-lojas.php",
+            "size": 50,
+            "hash": "c3cefabecb222aa706cf70c86a8d528daa77aa99a5db1fa34f786357e9a40aeb"
+        },
+        {
+            "type": "folder",
+            "name": "src"
+        },
+        {
+            "type": "file",
+            "name": "single.php",
+            "size": 4455,
+            "hash": "02c26df740dbaa05132b4bc2ed391fc855ebf124d5b16a23c348a8d238ae5da3"
+        },
+        {
+            "type": "file",
+            "name": "storesList.php",
+            "size": 1911,
+            "hash": "23c6d8efd88d16d9833d25df256ade7509ce0a7f2f9697210a208b2e6b177506"
+        },
+        {
+            "type": "file",
+            "name": "style.css",
+            "size": 26,
+            "hash": "71fde13ed1c0a305dc66b5f6e38e9803d42da4f39f5029555fd39885b8a877ff"
+        },
+        {
+            "type": "file",
+            "name": "tailwind.config.js",
+            "size": 2239,
+            "hash": "8e8bbe24fce4150a962256a1252ce5ac60218b33af489a21b3b558c1120f78e6"
+        },
+        {
+            "type": "file",
+            "name": "taxanomy-dicas.php",
+            "size": 543,
+            "hash": "0e76e443e78431562d957c89e2968f6dfe1f65f0d3e06a65ee9a2fca8f2f1371"
+        },
+        {
+            "type": "file",
+            "name": "taxanomy.php",
+            "size": 543,
+            "hash": "0e76e443e78431562d957c89e2968f6dfe1f65f0d3e06a65ee9a2fca8f2f1371"
+        },
+        {
+            "type": "file",
+            "name": "template-about.php",
+            "size": 24826,
+            "hash": "e436940d27bac127ac4c3c9362c45b1a0a811acb95cb9c0c25eccf7c7bd71334"
+        },
+        {
+            "type": "file",
+            "name": "template-app.php",
+            "size": 4372,
+            "hash": "b7f86ebfac461fb654df98ab1d064c92bf93401ebadbee7aa79474d7e86169fc"
+        },
+        {
+            "type": "file",
+            "name": "template-brochure.php",
+            "size": 6401,
+            "hash": "77837ad4f98aa433faadb1db832f5c9a37d7914a66f99dce2c36b71e4e09ed09"
+        },
+        {
+            "type": "file",
+            "name": "template-churrascometro.php",
+            "size": 10143,
+            "hash": "dd624b33c81db35f4ccb4d07ccaaa7112755a1326ae78ac56c03b4e2f538b91b"
+        },
+        {
+            "type": "file",
+            "name": "template-compras.php",
+            "size": 1564,
+            "hash": "56dea9e81267411ed9acce90fae396ad7ee4a6259199e8f476d0b05ae2f94a0c"
+        },
+        {
+            "type": "file",
+            "name": "template-contact.php",
+            "size": 14205,
+            "hash": "e96d7626f10d2e75d18f378501e22d88e0b225038bda9fcbe4e96610ae16ea5a"
+        },
+        {
+            "type": "file",
+            "name": "template-instagram.php",
+            "size": 1007,
+            "hash": "e5f00efba361d8779c102986e55aba4cd5a697395e196cf5a537312c9dca4dd0"
+        },
+        {
+            "type": "file",
+            "name": "template-mapa.php",
+            "size": 7974,
+            "hash": "b4ef8bbd28c849f477749c2bf7c3c0174bb9c3863785235a89bb3fc8dd75ff77"
+        },
+        {
+            "type": "file",
+            "name": "template-offers.php",
+            "size": 15121,
+            "hash": "85447c7c5be5b8c38df2a9f1d40d28b2d0e993f5d69fcc1827b9162881faa753"
+        },
+        {
+            "type": "file",
+            "name": "template-promotions.php",
+            "size": 5736,
+            "hash": "98c722244be9a6086436e40dec9bcecc842497e7bb5d9b82440ceedfb334280c"
+        },
+        {
+            "type": "file",
+            "name": "template-radio.php",
+            "size": 3584,
+            "hash": "3780ccdfc6636021f5322f0a1af202f15e4875043d91c19c24e4531333e32258"
+        },
+        {
+            "type": "file",
+            "name": "template-resultado-roleta.php",
+            "size": 4767,
+            "hash": "c4ec3b1b4802d6fa0ee5d664c5683c5d37a159ed9597245cc5865f2aa171f4f4"
+        },
+        {
+            "type": "file",
+            "name": "template-stores-2.php",
+            "size": 2037,
+            "hash": "3db9847c7864710bca3c6beac292320cd52e0a95cbc9ecd0689d23d58c5114f8"
+        },
+        {
+            "type": "file",
+            "name": "template-stores.php",
+            "size": 5799,
+            "hash": "58cdd9378f6abd9ac9449a3c6a0cc5e323851d05c00236f37ecb16437a066324"
+        },
+        {
+            "type": "file",
+            "name": "template-works.php",
+            "size": 25369,
+            "hash": "2498eb9791437f4d9676e25b68b13940f6bed98b1ee7c03664bb544ce07552c6"
+        },
+        {
+            "type": "folder",
+            "name": "templates"
+        },
+        {
+            "type": "file",
+            "name": "templates-instaform.php",
+            "size": 3117,
+            "hash": "8c07d89b09ef1eaa556032bb8abe313a52f5c315ed5455322cf4febe628de1c2"
+        },
+        {
+            "type": "file",
+            "name": ".vscode/settings.json",
+            "size": 3,
+            "hash": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+        },
+        {
+            "type": "file",
+            "name": "css/style.css",
+            "size": 31098,
+            "hash": "3c31e565e6d7f06bad8019e1af8dcb19be82988c0fcc20862cf0dfdc122de522"
+        },
+        {
+            "type": "folder",
+            "name": "css/tailwind"
+        },
+        {
+            "type": "folder",
+            "name": "img/arquivos"
+        },
+        {
+            "type": "file",
+            "name": "img/button-lamina.jpg",
+            "size": 11495,
+            "hash": "30faec0273c9804b1dd8942f5cfdb522a7774dd06c64c284aed7270c6a02e9ad"
+        },
+        {
+            "type": "folder",
+            "name": "img/example"
+        },
+        {
+            "type": "file",
+            "name": "img/icon.png",
+            "size": 1066389,
+            "hash": "f78afe93e15c0a9d8742fd9715144361fe3620e31031688ce69a32cc6a827ef5"
+        },
+        {
+            "type": "file",
+            "name": "img/logo-ico.ico",
+            "size": 1150,
+            "hash": "9d0c93e4bf5c336b5367f4cca259f63cb57767fc21e7767f50e65e998841756a"
+        },
+        {
+            "type": "file",
+            "name": "img/logo-ico.png",
+            "size": 17225,
+            "hash": "71f35dc0245aa697ce2fcf3dfe5362d9a6caf57b0c3ae46ec721b4a519897cc9"
+        },
+        {
+            "type": "file",
+            "name": "img/logo-old-2.png",
+            "size": 27151,
+            "hash": "54597718f11b8188412248b16fd7f3f302322029e0c861a06996db7578609a7e"
+        },
+        {
+            "type": "file",
+            "name": "img/logo.png",
+            "size": 159894,
+            "hash": "1737b7f8952d9dfe2abf74a5af5b4c6aca25ec39852d9452269c2962734db80a"
+        },
+        {
+            "type": "file",
+            "name": "img/quem-somos.png",
+            "size": 311452,
+            "hash": "69128a89bd804b9e93121e4277a5bb2edf276b0c657922615ea68d69d16438cc"
+        },
+        {
+            "type": "file",
+            "name": "img/redeconomia-clube.png",
+            "size": 392880,
+            "hash": "1d52adbeab41639db3a0dd6a9e7351be51c32e54113a43e92a6d2e1a8b6c3e7a"
+        },
+        {
+            "type": "folder",
+            "name": "inc/functions"
+        },
+        {
+            "type": "file",
+            "name": "inc/load.php",
+            "size": 203,
+            "hash": "bfc25a7a2ced2509097ab605057077568cf0b62dfb643223150fe06f82b87f88"
+        },
+        {
+            "type": "file",
+            "name": "js/script-contact.js",
+            "size": 2686,
+            "hash": "8020bf53968e97462c45b8052e2539157d54826ec711025d597de01f338892df"
+        },
+        {
+            "type": "file",
+            "name": "js/script-lista-compras.js",
+            "size": 7062,
+            "hash": "af778048909dc60b2d20b53dd3b457698f5c9d96a39aad161b338170ed2c522b"
+        },
+        {
+            "type": "file",
+            "name": "js/script-roleta.js",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "file",
+            "name": "js/script-search.js",
+            "size": 5290,
+            "hash": "91dd4a3a41ba0da53f88e5335a277ead4a28f14b43800e51d2b594ccd1587e3c"
+        },
+        {
+            "type": "file",
+            "name": "js/script-store.js",
+            "size": 5086,
+            "hash": "7c4f2e787d971d17374e7a0f110c2b264d932fa7026f7996869533d686aa9dfd"
+        },
+        {
+            "type": "file",
+            "name": "js/script-work.js",
+            "size": 7622,
+            "hash": "f2d14c8406f223200dbb3523f20b8dbc8a9af8bfba4e6ffa1c6d0d1eedd17934"
+        },
+        {
+            "type": "file",
+            "name": "js/script.js",
+            "size": 4701,
+            "hash": "edd4927209920de11ed83065fdc1fc58e65570281dfd00bc3d4a3adff2e48bfc"
+        },
+        {
+            "type": "file",
+            "name": "src/404.html",
+            "size": 49497,
+            "hash": "042597d503c28adfe82fb8beac61295269268173b62bd2d9024021a7b30fc099"
+        },
+        {
+            "type": "file",
+            "name": "src/app.html",
+            "size": 49842,
+            "hash": "f5f6a6e72c4e9a47de555b011bae9ca76f1bee6bc85264dcbac0a5ee631d1acf"
+        },
+        {
+            "type": "file",
+            "name": "src/contato.html",
+            "size": 55844,
+            "hash": "e877a2fabb671f5526dcbb4eba58e0014606909d2a6de90759c8ad1861f95d64"
+        },
+        {
+            "type": "file",
+            "name": "src/dicas-single.html",
+            "size": 57895,
+            "hash": "3d612497bd6e37258a8262749547fbff69104ecd96de0df48ef3b6b337675643"
+        },
+        {
+            "type": "file",
+            "name": "src/dicas.html",
+            "size": 59958,
+            "hash": "7deed9584f0f8f61bd79e277ada621d7f973946c638a96376b893e6b9eb32164"
+        },
+        {
+            "type": "file",
+            "name": "src/encarte-single.html",
+            "size": 55030,
+            "hash": "ac94e072df11367b33a5ba00f3f806017ec646ceec6840fe3108aabf8f126dea"
+        },
+        {
+            "type": "file",
+            "name": "src/encarte.html",
+            "size": 68489,
+            "hash": "033e37f2c9d76764fe272a41321693155bd7ede051588a000d665435477d7dfb"
+        },
+        {
+            "type": "file",
+            "name": "src/index.html",
+            "size": 93927,
+            "hash": "e2862d3e99e8fcba6289f4ee9a30e5231e92e0d28b1aa3f0c7e58a6be801861f"
+        },
+        {
+            "type": "file",
+            "name": "src/lista-compras.html",
+            "size": 51831,
+            "hash": "d8f77dc8d134fbbbced178e2ca973aa0e5a787efbaf544c1d5e3da4961522e22"
+        },
+        {
+            "type": "file",
+            "name": "src/lixo.html",
+            "size": 37,
+            "hash": "983ac62a0c59d0270dc370a317a3206c355138a3fd6bbdb81eb983ea527f1bc0"
+        },
+        {
+            "type": "file",
+            "name": "src/lojas.html",
+            "size": 48356,
+            "hash": "9d7ed9527f4e69163c4d8add434d13cc4f4a8076e7ea2a4ebe4c0621d2efb981"
+        },
+        {
+            "type": "file",
+            "name": "src/mapa.html",
+            "size": 51593,
+            "hash": "0713e998414b17b01d715f015c3520bd2154266f6e8eee6f8c29e3d271801214"
+        },
+        {
+            "type": "file",
+            "name": "src/menu.html",
+            "size": 95812,
+            "hash": "843a647dd12c86bbe90e6e65753f00604e5354c4ace1ed963277e3af940832cc"
+        },
+        {
+            "type": "file",
+            "name": "src/modal.html",
+            "size": 5075,
+            "hash": "93aad92f39b1c52dbf48269b6a1219c67cf69218da0fc8f4825f3f57d4f41dbd"
+        },
+        {
+            "type": "file",
+            "name": "src/promocoes.html",
+            "size": 63054,
+            "hash": "f4b0febe40417ef9f71f36977895a86a792320a1b4d752988fe8be6ae559b1d6"
+        },
+        {
+            "type": "file",
+            "name": "src/resultado-roleta.html",
+            "size": 3698,
+            "hash": "8e943cd3658eb6819fb3b15028785f67f1ba65fb58b2cf5a7f5d754b68073e52"
+        },
+        {
+            "type": "file",
+            "name": "src/search-none.html",
+            "size": 56536,
+            "hash": "66dd8bba36ec8d41adeb886595b52fa82530f60d7806e20dd62e8db563f349ae"
+        },
+        {
+            "type": "file",
+            "name": "src/search.html",
+            "size": 73449,
+            "hash": "c58b04ebb54d609064e721543e52c371b842a7b3c88a08948791e8fd643dbd21"
+        },
+        {
+            "type": "file",
+            "name": "src/sobre.html",
+            "size": 67332,
+            "hash": "eb34d326c6ede83f3bba77ab0cb2d485a85fd95974d365280591a305b19fb747"
+        },
+        {
+            "type": "file",
+            "name": "src/template-instagram.html",
+            "size": 72166,
+            "hash": "72fb3ac5244a197c465e29984c23dedd2fb6115ad42c652c8fc3f5c22152bd17"
+        },
+        {
+            "type": "file",
+            "name": "src/trabalhe-conosco.html",
+            "size": 71072,
+            "hash": "49094405ff0205ee3996a01684a51f8f71c1b46fa7d31e3941cecac08bea6f26"
+        },
+        {
+            "type": "folder",
+            "name": "templates/components"
+        },
+        {
+            "type": "folder",
+            "name": "templates/footer"
+        },
+        {
+            "type": "folder",
+            "name": "templates/header"
+        },
+        {
+            "type": "folder",
+            "name": "templates/home"
+        },
+        {
+            "type": "file",
+            "name": "css/tailwind/style.css",
+            "size": 4007,
+            "hash": "159b127b451716a468dadf2bc8fdce2efb419b360224c114040660caf3d6759a"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/Caminho 62.svg",
+            "size": 1728,
+            "hash": "05f4611cd4d9c8727fed56dcd001b5f31a21e1ebd392953985b22c3cd4f42361"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/back.svg",
+            "size": 856,
+            "hash": "a7ede250699c1d57a6475b9e26093b523a2ae261eba9a23545e818d262f0c85b"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/brochure.svg",
+            "size": 3931,
+            "hash": "fe4bf836e2f803ea50aeb3e253d057aeb63d812ae4f11e9dfd1665017395247b"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/caminhao.svg",
+            "size": 2674,
+            "hash": "de8386738128eacff652c6f2391ed7015f1f00e1e1b9964bb65ce710e9bea55f"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/cart.svg",
+            "size": 1108,
+            "hash": "2929ed0a1f6c843f0ab11e5a7709e0b809233346673b63c56ab34e3ee8f8aa7e"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/download.svg",
+            "size": 1137,
+            "hash": "e988903043c8ecee55e0ae15a5d7f3ee5207d00d345d403e5b0b14f840bffa1b"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/employee.svg",
+            "size": 9565,
+            "hash": "abd6c250ef54fa5880ed61d89523314cf3be93715db037c6f08c14740255bed3"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/facebook.svg",
+            "size": 1732,
+            "hash": "a4d3ea367761fc62efa27f362ba6ef3d38a25a8b6a5f51dda7194130e425b4f9"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/flyer.svg",
+            "size": 5256,
+            "hash": "237caf08846a33b4ab73aa49b423cb08b49e24ebf1bfcc641c896836b7af1ec3"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/ifood-logo.svg",
+            "size": 1092,
+            "hash": "e8645cd7bada86246ffcfdf053e6080a6957a4bf9295b18fe9f377d7db48986b"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/informativo.svg",
+            "size": 7643,
+            "hash": "3ed8878204fa42027d0d071d254ef70c2503511ee869d8e7912389397e046546"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/instagram.svg",
+            "size": 1398,
+            "hash": "71a6771061a0ac2fe1693ec7fd9e223d755c7fd9c8b73af3189fcdb676da3a7d"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/left.svg",
+            "size": 270,
+            "hash": "c0f0c31e67aa2200ffdaa47a4fdc4ce43bcc6fbc424b8a9703140335afa008d4"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/mail.svg",
+            "size": 827,
+            "hash": "d33b9234471ad7160157905c1fd1c15afd9676a8300a46636e8066d8f784307a"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/maps.svg",
+            "size": 2647,
+            "hash": "62f4c1326a136da131f8059830fd4391e2ccc7f849290466854ac458576011c6"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/mobile-apple.svg",
+            "size": 1758,
+            "hash": "0d9ca693908eccf518d644b29a822899adb7df2a229f367f45be0cee4a0609f4"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/mobile-play.svg",
+            "size": 1035,
+            "hash": "43e64e503a36b4f8a727f704c6dd4e85a97b0ac72d0c4bcc135aa7638cd209c8"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/mobile.svg",
+            "size": 846,
+            "hash": "8ce926fb1a71ecbb3182160d57f803385d8b8aca15c874c991843c9cc2a9968e"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/radio-simple.svg",
+            "size": 323,
+            "hash": "0ff931fcbfce6eab265b48db63c47db5012a104c745414830cda99370375746e"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/radio.svg",
+            "size": 6862,
+            "hash": "b2ed5fcaed6d4f71e9186d3c2f91e0ba7e5cc82ef8edd3d2ec2c23a6b78b3c0f"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/right.svg",
+            "size": 274,
+            "hash": "fcec37c17835b3cb1970709b45414d7df85b309a3f10617dd888531615e1dd96"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/sac.svg",
+            "size": 1398,
+            "hash": "a716f968e42d43f6e169e6847d698da89dd508f2ecb25b6af269466adb0e19df"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/search.svg",
+            "size": 515,
+            "hash": "d1a399ec7d44499bab579dfd09ff14bbc4590e2fb23b211605511abdf9e0725c"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/stores-old.svg",
+            "size": 1728,
+            "hash": "05f4611cd4d9c8727fed56dcd001b5f31a21e1ebd392953985b22c3cd4f42361"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/stores.svg",
+            "size": 2238,
+            "hash": "cd165aeaca4c18a7d4788760992121626bf72795f0755db84a271bc648969b2e"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/whatsapp.svg",
+            "size": 1527,
+            "hash": "a65474fadd6dcba22c73a52fc7058bef57efceeef89ab95fc7b87da2750b14a0"
+        },
+        {
+            "type": "file",
+            "name": "img/arquivos/youtube.svg",
+            "size": 1374,
+            "hash": "e39c757b07af597528b87db85018d3e78e0858339e292df721a3dca43c7055fb"
+        },
+        {
+            "type": "file",
+            "name": "img/example/oferta.jpg",
+            "size": 957017,
+            "hash": "70d809d97498273f1831781ac94d5080433992a0a7de47e53c4337b55e516eab"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/OrganizacaoMenuPrincipal.php",
+            "size": 3868,
+            "hash": "5314e54fe4c76675306585ff5e4a0afbc98519a1a05eb1640a58916d513c5bc5"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/OrganizacaoMenuRodape.php",
+            "size": 3658,
+            "hash": "56cb658c3accfb8eb2e06f4038cea3ba0bb9227eebcc6643a0621b873de249df"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeBanner.php",
+            "size": 2048,
+            "hash": "41a09def8319e29d032ff3765e2844063d632ebdabb1659d3052db69bbb914b8"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeEncarte.php",
+            "size": 2131,
+            "hash": "ea687638d1d9e7619a9e7c6eb8683c98f1556d08d4faccba03faf7a2c1fccfeb"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeLamina.php",
+            "size": 2111,
+            "hash": "7772bfa9ad6a5f4323b65f501a9fb0e3c28679e47690622ebd99e2c42c3235a4"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeLojas.php",
+            "size": 3231,
+            "hash": "c68b2e8a47898f0cefd03636967516545e95559fb88eefe70a8a20e31df4d586"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeOfertas.php",
+            "size": 2083,
+            "hash": "92446ad6e0b41942ba2e0bcf9a26f8644c0ff8520ed335ce2039418d308d611c"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypePopup.php",
+            "size": 3185,
+            "hash": "78d436d184626bcd0c96a1a5987feea560ef18597a1b6a8e9e9a2fb1c6c9c9c7"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypePromocoes.php",
+            "size": 3344,
+            "hash": "add77f590789cd60dd71757fa46ecf40c9de06c30fff6ac5632bb559f8dd5882"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeTips.php",
+            "size": 3162,
+            "hash": "555fe036c1681013ca0a71485a8c2a243ba14094a10ee0668d87a79ee7d42f3b"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/PostTypeVideo.php",
+            "size": 2048,
+            "hash": "321e46ab0b5ca5be50dbd0349b5e574e70875b6d952b678b4ff085c59ad85030"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/adminControlMenu.php",
+            "size": 791,
+            "hash": "71d9acce832ab7fe93934f028597bc2b3d1ba62ce599762421cfec59c3b68f5b"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/adminCustomize.php",
+            "size": 2954,
+            "hash": "3c4379b1ea309b284008faf5df42718fcf50d6db9759ab6b1bb21c256f06dc6e"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/ajax.php",
+            "size": 2979,
+            "hash": "47888584a079cf07bce2f9b4da4d621d7a3b0a6498987348fe4094d439de12df"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/breadcrumb.php",
+            "size": 6076,
+            "hash": "6ba1c7a0c61bf68a37d4ceef17dedb4b91f22b72e30113b1f4020f8ab978dc82"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/cookieAccept.php",
+            "size": 517,
+            "hash": "d51a0ee357516fee66efe8cb58b701e57540444a350804ee895a951e9981ffd6"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/excerptLenght.php",
+            "size": 116,
+            "hash": "93b46e6fdc44217cc9869d5890f6dc0f3263c6313cc8dc27502aa18f379184f7"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/excerptMore.php",
+            "size": 123,
+            "hash": "784ff0ce194aa0e0c2f401a41f857aa9b6a3ed71b8cd1089141c6a6782dceecd"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContact.php",
+            "size": 2235,
+            "hash": "60d5efab27746f61955a1da07adb07ce73a81a1e1158f89792ae4c5757cf5197"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContactAdminList.php",
+            "size": 21048,
+            "hash": "feef9bf1e39ca96d378da9b0e4cee4330c49d88a8fd52af373d57224dffb5e34"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContactAdminMenu.php",
+            "size": 297,
+            "hash": "0f65792470c0235cd68fc1739f8592b42f5f32fc648c3e7b3689887b348dc32e"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContactAdminStyle.php",
+            "size": 2574,
+            "hash": "af2c422451edf6de07a2f3e96c9644e81683adaaf5d82e48816dd438bc2f942d"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContactMail.php",
+            "size": 5297,
+            "hash": "e94f3d44a446751c604812d4a91f81defb36a7aa82d6bf93a03f48f25b0ff743"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formContactScript.php",
+            "size": 610,
+            "hash": "80f6ac9021d416b25f76cd0c6a831c62243a7a4253ae2de9f0671f6431999e75"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWork.php",
+            "size": 7774,
+            "hash": "7a13c535452231a99f2fe877c72aee86ac96e5a350710eb2fdd378394cc9eb72"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWorkAdminList.php",
+            "size": 26445,
+            "hash": "99dc8f87c54d076ff43d55cdfd7aeeebc2165de08ff369dda5d37deea9fb5c16"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWorkAdminMenu.php",
+            "size": 306,
+            "hash": "f9a3c1dc7d19f8a0bf3db02309a7a535962ff62c65bb90108ef553193646f2c8"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWorkAdminStyle.php",
+            "size": 2571,
+            "hash": "a05ebb8946f5b80b14c7d8ee2bd1f9130a30c6980241e235bed360e163412f2c"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWorkMail.php",
+            "size": 13058,
+            "hash": "26acf3d6fd75df87fe7030b5700f1b7a882d80205f4518f10e4caeefa89ac702"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/formWorkScript.php",
+            "size": 609,
+            "hash": "200dbaa54dae44647096d2055aec762302cac057e31eba42fb5b0f59f79aebb5"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/forminstaSave.php",
+            "size": 4201,
+            "hash": "9ad3bce03dc06871ed3b5d0b8b85e6b008c16e6b8514316c6b8d9a8bc739495e"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/forminstaScript.php",
+            "size": 606,
+            "hash": "99e83a0d40e569807db82ae29b7b6ca20034c748e75077058b03ca93dceafba4"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/headFunctions.php",
+            "size": 544,
+            "hash": "9e343bd43c3cbba08ed5f461675df43593628f5a4e36294fe0f6509a26ca8432"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/menuPrincipal.php",
+            "size": 745,
+            "hash": "4d72d4e652c79c82846d6b49fc06ed2cac95e56c84b24dc56f1aaf848e7c15bd"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/modal.php",
+            "size": 2542,
+            "hash": "bb2e989a5ae27b62b12194ac0b4a4bd06df7d4845a7ab7da5a04e1b34a4bed91"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/paged.php",
+            "size": 79,
+            "hash": "98837796af1cc6c077c8071b6e3c40459483fa2615864320bff1298d9e6cc110"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/paginacao.php",
+            "size": 7667,
+            "hash": "16b683ec7856be39fd2358bd236d837bacd36c0fdaebdec9ad33d0dac73105d9"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/paginationList.php",
+            "size": 341,
+            "hash": "05aa16368d442ab5f29c7e1a7a03726481cce4661d2b99f3d41047970d4b7570"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/roletaMailNotification.php",
+            "size": 6096,
+            "hash": "e728457b70b323b9aba31c6d3ea08e21584cfe4b44e2e2041d7375121a35bb33"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/roletaSave.php",
+            "size": 6167,
+            "hash": "76215b5994a5b7327ca4ae7e2f3d9167515de54169a2ae9fecf479afa271813e"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/roletaScript.php",
+            "size": 582,
+            "hash": "90de841dec38bbeaf2ea8ee5a88e793bc434ed1b6b81a6a387c89e9690651086"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/searchList.php",
+            "size": 4322,
+            "hash": "5cf1f83449c09da283029ff734b29d58f8c7fec997caf754b0ef333bc504e568"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/searchScript.php",
+            "size": 385,
+            "hash": "51d52e9bd2d46ce01cad03ed88abeaacda2c95752de158460d035a79a792dad0"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/storesList.php",
+            "size": 2139,
+            "hash": "6ee63d685ad2dba503afe398c8c63b14a089d99e7665a531bd9c3772896ee10f"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/storesScript.php",
+            "size": 614,
+            "hash": "2c304ac6b1150f0de602510babb8489efc8233f6fe6d54cb6cc743a77a5e1dad"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/supportThumbnails.php",
+            "size": 50,
+            "hash": "dc12bcdb0eb814a89a5c3d3218517e4c92f794d92ecd5d3ecd609f2808285eb0"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/titleName.php",
+            "size": 2010,
+            "hash": "d2c360f17a58ec47eeb0aae4b4c4cd8488b4c5ba8de0ec44daea3762cb9fc882"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/validaCPF.php",
+            "size": 717,
+            "hash": "8d95170bf088140462a8f779c00f024b20baa970e01f48e23825e5f5ada93986"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/var.php",
+            "size": 254,
+            "hash": "2e713cfaeca30a0df29a99d4ee3672115036603f1686d1660559b44468f21e90"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/wpDescription.php",
+            "size": 670,
+            "hash": "7fec288fe7264c157fb3352e474220cb99a969165d0e9984d3915c0486646fee"
+        },
+        {
+            "type": "file",
+            "name": "inc/functions/wpTitle.php",
+            "size": 708,
+            "hash": "9ac4730c78aa27a3a775997d85fce5ebc7df7d3be5c2edb5678f51007b71bd63"
+        },
+        {
+            "type": "file",
+            "name": "templates/components/articles-aside.php",
+            "size": 545,
+            "hash": "bd6726960359048de5d353cbf3603c54cb917954c9ef36a3976efae5c80173c1"
+        },
+        {
+            "type": "file",
+            "name": "templates/components/articles-list.php",
+            "size": 1029,
+            "hash": "eb4d7a4cf6185a5cf091beab94290373551533f609d9f79008ba069ae6a1effe"
+        },
+        {
+            "type": "file",
+            "name": "templates/components/widget-recents.php",
+            "size": 1018,
+            "hash": "52aafe8f6b543cc5d29721aca461dbae762cf4abf4f5ad1f6c821f23c432e12b"
+        },
+        {
+            "type": "file",
+            "name": "templates/components/widget-search.php",
+            "size": 594,
+            "hash": "9f912c4011788061fa3cb2a61f273c0347d692240dcaa8b19ae5231695d8c1fc"
+        },
+        {
+            "type": "file",
+            "name": "templates/components/widget-tags.php",
+            "size": 581,
+            "hash": "3c05d31ace18842e2297b44507832c7fe502532e3f484e6b97fcdb18bd4eea3d"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-app.php",
+            "size": 3651,
+            "hash": "d82b940590cfd10cc15a4d380ba952a7a027421a4561df24e90f8b10d05d6b71"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-biography.php",
+            "size": 524,
+            "hash": "00ca787eef4c4ba99b49dab56c6d038d931ecb87b9ea2a29739d8955c0e0aaff"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-cookies.php",
+            "size": 1067,
+            "hash": "f87ca78ad6994699e2444c7803dfc6a59d41eb29dba3ea3764822ec10d2cdaa4"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-copyright.php",
+            "size": 233,
+            "hash": "fe107fb24fc2ba4aadc75cc7921a44a11a42f37361129b10a568207f0d0010d4"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-info.php",
+            "size": 278,
+            "hash": "e4a2513783cc1992ee113d8cc63a54e7b1442fedd6a8a7149ab8bf0b114c0ca7"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-links-2.php",
+            "size": 422,
+            "hash": "cfe5c173a0b5bc66da1fa4afbe7a01a09752b19f6196145582f07d6fd85afe9c"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-links-3.php",
+            "size": 422,
+            "hash": "dcb38dcf84335a6f96366d90fd3d959d1283323d07debeff35c02e7d458abcf7"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-links.php",
+            "size": 428,
+            "hash": "53a749c7b0afaa0cb73f8fa4fcd0f0b6a274851584997fa0f99f0941785e3319"
+        },
+        {
+            "type": "file",
+            "name": "templates/footer/footer-socials.php",
+            "size": 5084,
+            "hash": "12079fc7165814a482164e6f8a784d542a3c0dafe4fbe1a9fd7878a206f76861"
+        },
+        {
+            "type": "file",
+            "name": "templates/header/header-title.php",
+            "size": 184,
+            "hash": "0d4ec475bb75e9fd28c53549d7b19c30746cbe02eb0aab7c47ba5cc7f6d9a069"
+        },
+        {
+            "type": "file",
+            "name": "templates/header/part-header-bar.php",
+            "size": 1807,
+            "hash": "2a3585f361aafdfe5eef66df945da91bd7005610c9fce26a2dfc75478ba78435"
+        },
+        {
+            "type": "file",
+            "name": "templates/header/part-header.php",
+            "size": 10504,
+            "hash": "6de050d0d978e8371343c8588e41b5921bd101cae6f5039d37af9663aa75f78b"
+        },
+        {
+            "type": "file",
+            "name": "templates/header/part-pre-header.php",
+            "size": 14942,
+            "hash": "2590d1f118141cc1447ade32eee2edf5707cf541615b12ca6baa42f2ce691467"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-app.php",
+            "size": 440,
+            "hash": "bf9b4ad3abd2c899ebcd6d0f5ff47f9bcfef799f3e2be5d7f0b4f96dc0786a3f"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-articles.php",
+            "size": 1967,
+            "hash": "afcb2a8d22c523ac52fc69e0264917774a3512b371e13e75f8651aec7aef3d3d"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-banner.php",
+            "size": 1770,
+            "hash": "3d9df9f12718eb2a73f12a96da00c39b3b0223482a9426b6f8e77645a03e6d61"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-brochure.php",
+            "size": 10008,
+            "hash": "a9c2621a8f234e4098d503206445cd1e678a90cb067b0350268701431b5d8221"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-button-offer.php",
+            "size": 836,
+            "hash": "c58bc43a94fa14de690d9202c119a02c15c4b3cb2f4866c8ac497700db0f4f9e"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-featured.php",
+            "size": 577,
+            "hash": "2669652fbfa9054737830ca321f14d58b0e780fbd1852e6acbb340120e3e25eb"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-formulario-instagram.php",
+            "size": 9927,
+            "hash": "2094bccbf11886185654e87b96f6e76e8f0ea788717bcc565a1321dca43a2577"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-info.php",
+            "size": 15265,
+            "hash": "a7d1e519b007bd8832b1df987fe3e5631c1ee8bfe0700143af7500b5efefe967"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-offers.php",
+            "size": 1821,
+            "hash": "d866199b205dde1c5144107317f74d6ee68f361707f6c97724d83822670cb907"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-popup.php",
+            "size": 4771,
+            "hash": "acd919fdc37438b6988e464fbe997c451e5b01c01cf2b48720ccd54b03366bb5"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-roleta.php",
+            "size": 9340,
+            "hash": "53b9534541126c1c2e9a04776dcc3fceab9ec00fa21b2aaeceb6bdc61565ff30"
+        },
+        {
+            "type": "file",
+            "name": "templates/home/home-video.php",
+            "size": 1502,
+            "hash": "891bae66313854d1d14574b0c2ca6c4b9e4dac9f3b1640119a1986b6dbbab330"
+        }
+    ]
+}

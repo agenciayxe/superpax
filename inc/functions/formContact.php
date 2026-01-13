@@ -16,6 +16,7 @@ function contact() {
     else if ($content['email'] == '') { $response['content'] = 'O e-mail digitado não é válido.'; }
     else if ($content['phone'] == '') { $response['content'] = 'O telefone digitado não é válido.'; }
     else if ($content['message'] == '') { $response['content'] = 'A mensagem digitada não é válida.'; }
+    else if ($content['reason_id'] == '') { $response['content'] = 'Selecione um motivo para contato.'; }
     else if (strlen($content['name']) <= 3) { $response['content'] = 'O nome é muito pequeno.'; }
     else if (strlen($content['email']) <= 7) { $response['content'] = 'O e-mail é muito pequeno.'; }
     else if (strlen($content['phone']) <= 9) { $response['content'] = 'O telefone é muito pequeno.'; }
@@ -29,12 +30,16 @@ function contact() {
                 'name' => $content['name'],
                 'email' => $content['email'],
                 'phone' => $content['phone'],
+                'store_id' => $content['store_id'],
+                'reason_id' => $content['reason_id'],
                 'message' => $content['message'],
                 'date_created' => $content['date_created'],
                 'status_id' => 1
             )
         );
         if ($insertCustomer) {
+            $idCustomer = $wpdb->insert_id;
+            mailContact($idCustomer);
             $response['status'] = true;
             $response['content'] = 'Obrigado! Seu cadastro foi efetuado com sucesso.';
         }

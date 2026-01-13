@@ -33,11 +33,13 @@ function showMessage($message, $errormsg = false)
     echo "<p><strong>$message</strong></p></div>";
 } 
  
+/*
 function showAdminMessages()
 {
     showMessage("Esta é uma versão de homologação.", true);
 }
 add_action('admin_notices', 'showAdminMessages');
+*/
 
 // Remover editor de códigos do painel
 function remove_editor_menu() {

@@ -93,11 +93,11 @@ function paginateList( $args = '' ) {
          *
          * @param string $link The paginated link URL.
          */
-        $page_links[] = '<li><a class="prev page-numbers" href="' . esc_url( apply_filters( 'paginate_links', $link ) ) . '">' . $args['prev_text'] . '</a></li>';
+        $page_links[] = '<li><a class="py-2 px-3 ml-0 leading-tight text-red-700 bg-white rounded-l-lg border border-gray-300 hover:bg-red-100" href="' . esc_url( apply_filters( 'paginate_links', $link ) ) . '">' . $args['prev_text'] . '</a></li>';
     endif;
     for ( $n = 1; $n <= $total; $n++ ) :
         if ( $n == $current ) :
-            $page_links[] = "<li><a class='page-numbers current'>" . $args['before_page_number'] . number_format_i18n( $n ) . $args['after_page_number'] . "</a></li>";
+            $page_links[] = "<li><a class='py-2 px-3 text-white bg-red-700 border border-gray-300'>" . $args['before_page_number'] . number_format_i18n( $n ) . $args['after_page_number'] . "</a></li>";
             $dots = true;
         else :
             if ( $args['show_all'] || ( $n <= $end_size || ( $current && $n >= $current - $mid_size && $n <= $current + $mid_size ) || $n > $total - $end_size ) ) :
@@ -108,7 +108,7 @@ function paginateList( $args = '' ) {
                 $link .= $args['add_fragment'];
  
                 /** This filter is documented in wp-includes/general-template.php */
-                    $page_links[] = "<li><a class='page-numbers' href='" . esc_url( apply_filters( 'paginate_links', $link ) ) . "'>" . $args['before_page_number'] . number_format_i18n( $n ) . $args['after_page_number'] . "</a></li>";
+                    $page_links[] = "<li><a class='py-2 px-3 leading-tight text-red-700 bg-white border border-gray-300 hover:bg-red-100' href='" . esc_url( apply_filters( 'paginate_links', $link ) ) . "'>" . $args['before_page_number'] . number_format_i18n( $n ) . $args['after_page_number'] . "</a></li>";
                 $dots = true;
             elseif ( $dots && ! $args['show_all'] ) :
                 // $page_links[] = '<span class="page-numbers dots">' . __( 'a;' ) . '</span>';
@@ -124,23 +124,23 @@ function paginateList( $args = '' ) {
         $link .= $args['add_fragment'];
  
         /** This filter is documented in wp-includes/general-template.php */
-        $page_links[] = '<li><a class="next page-numbers" href="' . esc_url( apply_filters( 'paginate_links', $link ) ) . '">' . $args['next_text'] . '</a></li>';
+        $page_links[] = '<li><a class="py-2 px-3 leading-tight text-red-700 bg-white rounded-r-lg border border-gray-300 hover:bg-red-100" href="' . esc_url( apply_filters( 'paginate_links', $link ) ) . '">' . $args['next_text'] . '</a></li>';
     endif;
     switch ( $args['type'] ) {
         case 'array' :
             return $page_links;
  
         case 'list' :
-            $r .= "<ul class='page-numbers'>\n\t<li>";
+            $r .= "<div class='mx-auto block text-center my-8'><ul class='inline-flex -space-x-px'>\n\t<li>";
             $r .= join("</li>\n\t<li>", $page_links);
-            $r .= "</li>\n</ul>\n";
+            $r .= "</li>\n</ul></div>\n";
             break;
  
         default :
             $r = join("\n", $page_links);
             break;
     }
-    return '<div class="pagination"><ul>' . $r . '</ul></div>';
+    return '<div class="mx-auto block text-center my-8"><ul class="inline-flex -space-x-px">' . $r . '</ul></div>';
 }
 /* 
 <div class="pagination">

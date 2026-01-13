@@ -18,7 +18,7 @@ function work() {
     
     /* CAMPOS */
     $fieldsRequired = array(
-        array('field' => 'nome', 'name' => 'Nome', 'verify' => 3),
+        array('field' => 'nome', 'name' => 'Nome', 'verify' => 10),
         array('field' => 'cpf', 'name' => 'CPF', 'verify' => 9),
         array('field' => 'nascimento', 'name' => 'Nascimento', 'verify' => 7),
         array('field' => 'sexo', 'name' => 'Sexo', 'verify' => 1),
@@ -32,7 +32,7 @@ function work() {
     /* VERIFICAR LISTA DE CAMPOS */
     foreach ($fieldsRequired as $singleFields) {
         $currentField = $singleFields['field'];
-        $currentQuantity = $singleFields['quantity'];
+        $currentQuantity = $singleFields['verify'];
         $currentName = $singleFields['name'];
         if ($content[$currentField] == '') {
             $verifyFields = false;
@@ -125,9 +125,9 @@ function work() {
 
                 $slugTitle = sanitize_title($content['nome']);
                 $pathUpload = (!empty($_FILES['curriculo'])) ? get_home_path() . '/upload_curriculo/' . $idCustomer .  '-' . $slugTitle . '.' . $extFile : '';
-                $urlUpload = (!empty($_FILES['curriculo']) || $_FILES['curriculo']['tmp_name'] == '') ? 'http://localhost/fabiofreitas/esal/upload_curriculo/' . $idCustomer .  '-' . $slugTitle . '.' . $extFile : '';
+                $urlUpload = (!empty($_FILES['curriculo']) || $_FILES['curriculo']['tmp_name'] == '') ? 'https://redeconomia.com.br/upload_curriculo/' . $idCustomer .  '-' . $slugTitle . '.' . $extFile : '';
 
-                move_uploaded_file($_FILES['curriculo']['tmp_name'], $pathUpload);
+                $upload = move_uploaded_file($_FILES['curriculo']['tmp_name'], $pathUpload);
                 $wpdb->update(
                     'form_workers',
                     array( 'curriculum' => $urlUpload ),
@@ -162,6 +162,7 @@ function work() {
                     );
                 }
             }
+            workContact($idCustomer);
             
             $response['status'] = true;
             $response['content'] = 'Obrigado! Seus dados foram enviados com sucesso.';
